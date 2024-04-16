@@ -52,7 +52,7 @@
   
       <div class="login-box">  
         <h4>Devenir un transporteur TUNI COLIS</h4>   
-        <form class="form" action="devenirtransporteur.php" method="POST" >
+        <form class="form" action="index.php" method="POST" onsubmit="return validateForm()">
           <div>
             <div class="section1" style="display: flex;">
           <div class="part1">
@@ -81,7 +81,7 @@
             </div>
         <div class="part2">
             <div class="user-box">
-            <input type="text" name="prenom_l" required="">
+            <input type="text" name="prenom-d" required="">
             <label>Prénom</label>
             </div>
 
@@ -91,13 +91,13 @@
               </div>
   
             <div class="user-box">
-            <input type="text" name="email_l" required onblur="validateEmail()">
+            <input type="text" name="email_d" required onblur="validateEmail()">
             <label>Adresse Email</label>
             </div>
     
             <div class="user-box">
               <input type="text" name="tpye_trans" required="">
-              <label>Moyen de transport</label>
+              <label>Marque de voiture</label>
               </div>
               <div class="user-box">
                 <input type="text" name="zone_d'activité " required="">
@@ -118,11 +118,11 @@
           <div>
               <p>Follow Us</p>
               <ul>
-                <li><a href="#"><img src="../images/icons8-facebook-48.png" alt=""></a></li>
-                <li><a href="#"><img src="../images/icons8-instagram-48.png" alt=""></a></li>
-                <li> <a href=""><img src="../images/icons8-linkedin-48.png" alt="instagram"></a></li>
-                <li> <a href="#"><img src="../images/icons8-twitter-48.png" alt="twitter"></a></li>
-                <li><a href="#"><img src="../images/icons8-pinterest-48.png" alt="pinterest"></a></li>
+                <li><a href="#"><img src="images/icons8-facebook-48.png" alt=""></a></li>
+                <li><a href="#"><img src="images/icons8-instagram-48.png" alt=""></a></li>
+                <li> <a href=""><img src="images/icons8-linkedin-48.png" alt="instagram"></a></li>
+                <li> <a href="#"><img src="images/icons8-twitter-48.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/icons8-pinterest-48.png" alt="pinterest"></a></li>
               </ul>
           </div>
   </footer>
